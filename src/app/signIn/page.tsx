@@ -13,7 +13,7 @@ const page = () => {
     {/* Right column (always visible) */}
         <div className="bg-white text-black w-full md:w-3/5 flex flex-col justify-center items-center gap-6">
             <SignInForm />
-            <p>Don't have an account. <Link href='/signUp' className='text-blue-500'>Sign Up Now.</Link></p>
+            <p>Don&apos;t have an account. <Link href='/signUp' className='text-blue-500'>Sign Up Now.</Link></p>
         </div>
     </div>
   )
